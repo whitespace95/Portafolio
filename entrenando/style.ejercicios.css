@@ -1,0 +1,44 @@
+/* reset.css */
+/* Reseteo básico para eliminar márgenes y rellenos predeterminados del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el texto destacado */
+.texto-destacado {
+    color: #1E90FF; /* Color azul brillante */
+    font-weight: bold;
+}
+
+/* Estilo para el título del blog */
+.titulo-blog {
+    color: #ffa9478c; /* Color rojo tomate */
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Estilo para las noticias urgentes */
+.urgente {
+    color: #00d9ff9a; /* Rojo */
+    font-weight: bold;
+    background-color: #f8e0e0ee; /* Fondo ligeramente rosado para mayor visibilidad */
+    padding: 10px;
+    border-left: 5px solid #FF0000;
+    margin: 20px 0;
+}
+
+/* Estilo para el párrafo con modelo de caja aplicado */
+.caja-ejemplo {
+    color:#d6ff1eaf
+    margin: 20px;
+    border: 2px solid #1EF57F;
+    padding: 15px;
+    background-color: #78F543;
+    border-radius: 5px; /* Bordes redondeados para un mejor aspecto */
+    font-size: 1.1em;
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+
